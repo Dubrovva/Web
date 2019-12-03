@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap');
+
+body{
+    width:675px;
+    margin: 0px auto;
+    color: #093500;
+    font-family: 'Open Sans', sans-serif;    
+}
+header{
+    font-size:30px;
+    height: 30px;
+    padding: 30px;
+    padding-left:20;
+    color: white;
+    background: rgba(118,151,21,1);
+    background: -moz-linear-gradient(top, rgba(118,151,21,1) 0%, rgba(153,204,1,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(118,151,21,1) 0%, rgba(153,204,1,1) 100%);
+    background: -o-linear-gradient(top, rgba(118,151,21,1) 0%, rgba(153,204,1,1) 100%);
+    background: linear-gradient(to bottom, rgba(118,151,21,1) 0%, rgba(153,204,1,1) 100%);
+}
+nav li {
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+nav li:after{
+    content: "  ";
+    background: url(png/arrow.png) center no-repeat;
+    padding:9px 9px 9px 9px;
+    margin-left: 30px;
+}
+nav li:last-child::after{
+    content: none;
+}
+.text{
+    font-size: 11px;
+}
+.colortext{
+    color: #80a60f;
+    font-weight: bold;
+}
+.Prob {
+    padding-left:30;
+}
+.Content{
+    padding-left:305;
+}
+.Conteiner{
+    background:#eeeefb;
+    height: 190px;
+}
+
+.ContentAbout{
+    
+    margin-left: 20px;
+    width:230;
+    display: inline-block;
+}
+
+.img {
+    position: relative;
+        left: 5px;
+        top: -140px;
+        width: 141px;
+        height: 94px; 
+  }
+.img1 {
+    position: relative;
+        left: 235px;
+        top: -110px;
+        width: 141px;
+        height: 94px;
+  }
+  .ContentAbout1{
+
+    margin-left: 20px;
+    padding-top: -20px;
+    width:230;
+    display: inline-block;
+}
+p.ContentAbout{
+    position: relative;
+    top: -30px;
+    width: 200px;
+       
+}
+.copyri{
+    font-size: 11px;
+    margin-left: 17px;
+    position: relative;
+    top:-100;
+}
